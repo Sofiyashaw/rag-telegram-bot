@@ -101,6 +101,6 @@ See `/screenshots` folder.
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 Sofiya
