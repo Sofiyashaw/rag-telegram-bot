@@ -64,14 +64,6 @@ python app.py
 
 ---
 
-## (Optional) Docker Setup
-
-```bash
-docker-compose up --build
-```
-
----
-
 ## System Design
 
 User → Telegram Bot → Retriever (FAISS) → Context
