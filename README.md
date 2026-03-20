@@ -1,4 +1,4 @@
-# 🤖 RAG Telegram Bot
+# RAG Telegram Bot
 
 A Retrieval-Augmented Generation (RAG) chatbot built using:
 
@@ -9,7 +9,7 @@ A Retrieval-Augmented Generation (RAG) chatbot built using:
 
 ---
 
-## 🚀 Features
+## Features
 
 * Ask questions from your custom documents
 * Context-aware answers using RAG
@@ -19,7 +19,7 @@ A Retrieval-Augmented Generation (RAG) chatbot built using:
 
 ---
 
-## 🧠 Models & APIs Used
+## Models & APIs Used
 
 * Embedding Model: `all-MiniLM-L6-v2`
 * Vector DB: FAISS
@@ -28,7 +28,7 @@ A Retrieval-Augmented Generation (RAG) chatbot built using:
 
 ---
 
-## 📦 How to Run Locally
+## How to Run Locally
 
 ### 1. Clone repo
 
@@ -64,7 +64,7 @@ python app.py
 
 ---
 
-## 🐳 (Optional) Docker Setup
+## (Optional) Docker Setup
 
 ```bash
 docker-compose up --build
@@ -72,20 +72,20 @@ docker-compose up --build
 
 ---
 
-## 🧱 System Design
+## System Design
 
 User → Telegram Bot → Retriever (FAISS) → Context
 → Generator (Ollama LLM) → Response → User
 
 ---
 
-## 📸 Demo
+## Demo
 
 See `/screenshots` folder.
 
 ---
 
-## 📌 Commands
+## Commands
 
 * `/start` → Start bot
 * `/ask <question>` → Ask question
@@ -93,7 +93,7 @@ See `/screenshots` folder.
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 * Make sure Ollama is running locally
 * Add your documents inside `/data`
