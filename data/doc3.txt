@@ -1,0 +1,2 @@
+Machine learning is a subset of AI that learns from data.
+Python is used in ML
