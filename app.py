@@ -7,7 +7,7 @@ from utils.logger import log
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🤖 RAG Bot is LIVE \n\n/ask <question>\n/summarize"
+        "RAG Bot is LIVE \n\n/ask <question>\n/summarize"
     )
 
 
@@ -45,6 +45,6 @@ app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("ask", ask))
 app.add_handler(CommandHandler("summarize", summarize_cmd))
 
-log("🚀 PIPELINE READY — Bot is live and accepting requests!")
+log("PIPELINE READY — Bot is live and accepting requests!")
 
 app.run_polling()
